@@ -54,8 +54,8 @@ int main()
             case '^': pow();
                       break;
 
-            case 'H':
-            case 'h': calc_op();
+            case 'D':
+            case 'd': calc_op();
                       break;
 
             case 'Q':
@@ -86,7 +86,7 @@ void calc_op()
     printf("n C calculator nn");
 
     printf("   * Press 'Q' or 'q' to quit this program or calculator ");
-    printf("  * Press 'H' or 'h' to display options below");
+    printf("  * Press 'D' or 'd' to display options below");
     printf("Press 'C' or 'c' to clear the screen display  nn");
 
     printf("Enter + for Addition n");
